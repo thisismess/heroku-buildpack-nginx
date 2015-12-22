@@ -16,7 +16,7 @@ Example usage:
     html:
     index.html
 
-    $ heroku create --stack cedar --buildpack http://github.com/essh/heroku-buildpack-nginx.git
+    $ heroku create --stack cedar --buildpack https://github.com/abhishekmunie/heroku-buildpack-nginx.git
     ...
 
     $ git push heroku master
